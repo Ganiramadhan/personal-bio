@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    
+  }
+body {
+    background-color: #000016;
+    color: white;
+   
+}
+
+.judul {
+    max-width: 100%;
+
+    
+}
+.judul > h2 {
+    color: white;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 400;
+}
+nav {
+    max-width: 100%;
+    /* background:skyblue; */
+    height: 50px;
+    padding: 15px;
+    position: fixed;
+    z-index: 999;
+}
+nav > ul > li {
+    list-style: none;
+    margin: 20px;
+    float: left;
+    
+ 
+    
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    
+}
+nav > ul > li :hover {
+    width: 500px;
+    padding: 10px;
+    color:black;
+    background-color:skyblue;
+    transition: .5s;
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+
+}
+
+.content-area {
+    color: white;
+    text-align: center;
+   
+}
+.content {
+   padding-top: 250px;
+}
+
+
+
+
+.about .content{
+    margin: 60px;
+    margin-left: 170px;
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .about .content .col-left{
+    position: relative;
+    width: 45%;
+  }
+  
+  .about .content .col-right{
+    position: relative;
+    width: 50%;
+  }
+  .about p {
+    padding-top: 30px;
+  }
+  .about  p  span {
+    color: skyblue;
+    font-weight: 600;
+  }
+  
+  .about .content .col-left .img-card{
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+  }
+  
+  .about .content .col-left .img-card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  
+
+  
+  
+.contact .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .contact .content .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .contact .content .row .card{
+    background: #fff;
+    width: 240px;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+  }
+  
+  .contact .content .row .card .contact-icon{
+    color: #3a6cf4;
+    font-size: 4em;
+    text-align: center;
+    transition: transform 0.5s ease;
+  }
+  
+  .contact .content .row .card:hover .contact-icon{
+    transform: translateY(-10px);
+  }
+  
+  .contact .content .row .card .info{
+    text-align: center;
+  }
+  
+  .contact .content .row .card .info h3{
+    color: #111;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+  }
+  
+  .contact .content .row .card .info span{
+    color:#666;
+    font-weight: 500;
+  }
+  
+  .contact-form{
+    background: #fff;
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  }
+  
+  .contact-form h3{
+    color: #111;
+    font-size: 1.6em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .input-box input,
+  .contact-form .input-box textarea{
+    color: #111;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #111;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .contact-form .input-box .send-btn{
+    color: #fff;
+    background: #3a6cf4;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  
+  .contact-form .input-box .send-btn:hover{
+    background: #235bf6;
+  }
+  
+
+  
+/*--------------FOOTER -------------*/
+.footer{
+    background: #000016;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .footer .footer-title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .footer p{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .footer p a{
+    color: #3a6cf4;
+    font-weight: 600;
+    text-decoration: none;
+  }
