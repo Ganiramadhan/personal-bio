@@ -1,2 +1,0 @@
-# Biodata
-Tugas Membuat Biodata
